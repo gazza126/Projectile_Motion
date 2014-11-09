@@ -1,0 +1,176 @@
+﻿Build started 9/11/2014 5:13:55 PM.
+     1>Project "H:\Windows 10\Documents\visual studio 2013\Projects\ProjectileMotion\ProjectileMotion\ProjectileMotion.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         H:\Windows 10\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Allformvariables.cpp MainMenu1.cpp MotionThread.cpp MyForm.cpp PauseMenu.cpp Projectile.cpp Simulation.cpp
+         Allformvariables.cpp
+     1>Allformvariables.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+         MainMenu1.cpp
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Allformvariables.h : error C4335: Mac file format detected: please convert the source file to either DOS or UNIX format
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Allformvariables.h(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Projectile.h(33): warning C4305: 'argument' : truncation from 'int' to 'signed char'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Projectile.h(33): warning C4309: 'argument' : truncation of constant value
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Projectile.h(42): warning C4305: '=' : truncation from 'int' to 'char'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Projectile.h(42): warning C4309: '=' : truncation of constant value
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Projectile.h(51): warning C4305: '=' : truncation from 'int' to 'char'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Projectile.h(51): warning C4309: '=' : truncation of constant value
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Projectile.h(60): warning C4305: '=' : truncation from 'int' to 'char'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Projectile.h(60): warning C4309: '=' : truncation of constant value
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Projectile.h(69): warning C4305: '=' : truncation from 'int' to 'char'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Projectile.h(69): warning C4309: '=' : truncation of constant value
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Projectile.h(78): warning C4305: '=' : truncation from 'int' to 'char'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Projectile.h(78): warning C4309: '=' : truncation of constant value
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Projectile.h(87): warning C4305: '=' : truncation from 'int' to 'char'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Projectile.h(87): warning C4309: '=' : truncation of constant value
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\PauseMenu.h(26): error C2059: syntax error : '{'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\PauseMenu.h(26): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\PauseMenu.h(46): error C2059: syntax error : '{'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\PauseMenu.h(46): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\PauseMenu.h(17): error C3861: 'InitializeComponent': identifier not found
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(275): error C2146: syntax error : missing ';' before identifier 'Variables'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(275): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(35): error C2065: 'Screen_' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(35): error C2146: syntax error : missing ';' before identifier 'width'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(35): error C2065: 'width' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(285): error C3861: 'srand': identifier not found
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(297): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(297): error C2228: left of '.Setfloats' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(300): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(300): error C2228: left of '.Setfloats' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(303): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(303): error C2228: left of '.Setfloats' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(304): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(304): error C2228: left of '.WindDirection' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(307): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(307): error C2228: left of '.WindSpeed' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(307): error C2228: left of '.ToString' must have class/struct/union
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(308): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(308): error C2228: left of '.WindDirection' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(308): error C2228: left of '.ToString' must have class/struct/union
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(309): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(309): error C2228: left of '.Gravity' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(309): error C2228: left of '.ToString' must have class/struct/union
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(310): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(310): error C2228: left of '.restitution' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(310): error C2228: left of '.ToString' must have class/struct/union
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(322): error C2065: 'RAND_MAX' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(322): error C3861: 'rand': identifier not found
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(336): error C3861: 'srand': identifier not found
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(337): error C3861: 'rand': identifier not found
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(353): error C3861: 'floorf': identifier not found
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(367): error C2065: 'SelectedIndex' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(369): error C2065: 'SelectedIndex' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(377): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(377): error C2228: left of '.WindSpeed' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(377): error C2228: left of '.TextintValidation' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(382): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(382): error C2228: left of '.Gravity' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(382): error C2228: left of '.TextintValidation' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(387): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(387): error C2228: left of '.restitution' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(387): error C2228: left of '.TextintValidation' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(399): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(399): error C2228: left of '.MouseStart' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(413): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(413): error C2228: left of '.MouseEnd' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(414): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(414): error C2228: left of '.mass' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(415): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(415): error C2228: left of '.Velocity' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(415): error C2228: left of '.CalcinitalVelocity' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(416): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(416): error C2228: left of '.Velocitytimer' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(416): error C2228: left of '.Start' must have class/struct/union
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(417): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(417): error C2228: left of '.AirResistance' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(417): error C2228: left of '.CalcAirresistance' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(433): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(433): error C2228: left of '.Velocitytimer' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(433): error C2228: left of '.Start' must have class/struct/union
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(442): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(442): error C2228: left of '.Velocitytimer' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(442): error C2228: left of '.Stop' must have class/struct/union
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(444): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(444): error C2228: left of '.Velocitytimer' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(444): error C2228: left of '.ElapsedMilliseconds' must have class/struct/union
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(446): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(446): error C2228: left of '.CalcCurrentVelocity' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(446): error C2228: left of '.Velocitytimer' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(446): error C2228: left of '.ElapsedMilliseconds' must have class/struct/union
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(448): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(448): error C2228: left of '.Velocity' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(448): error C2660: 'MotionThread::MoveProjectile' : function does not take 1 arguments
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(455): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(455): error C2228: left of '.Velocity' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(455): error C2228: left of '.X' must have class/struct/union
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(457): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(457): error C2228: left of '.Velocity' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(457): error C2228: left of '.Y' must have class/struct/union
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(489): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(489): error C2228: left of '.Velocitytimer' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(489): error C2228: left of '.Stop' must have class/struct/union
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(491): error C2065: 'Pause' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(491): error C2227: left of '->Show' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(508): error C2065: 'Mouse_Down' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(510): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(510): error C2228: left of '.MouseStart' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(510): error C2228: left of '.X' must have class/struct/union
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(511): error C2065: 'Variables' : undeclared identifier
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(511): error C2228: left of '.MouseStart' must have class/struct/union
+                 type is 'unknown-type'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(511): error C2228: left of '.Y' must have class/struct/union
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\Simulation.h(513): error C2065: 'Mouse_Down' : undeclared identifier
+     1>MainMenu1.cpp(3): fatal error C1075: end of file found before the left brace '{' at 'h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\PauseMenu.h(3)' was matched
+         MotionThread.cpp
+     1>MotionThread.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+         MyForm.cpp
+     1>MyForm.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+         PauseMenu.cpp
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\PauseMenu.h(26): error C2059: syntax error : '{'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\PauseMenu.h(26): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\PauseMenu.h(46): error C2059: syntax error : '{'
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\PauseMenu.h(46): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\PauseMenu.h(17): error C3861: 'InitializeComponent': identifier not found
+     1>PauseMenu.cpp(3): fatal error C1075: end of file found before the left brace '{' at 'h:\windows 10\documents\visual studio 2013\projects\projectilemotion\projectilemotion\PauseMenu.h(3)' was matched
+         Projectile.cpp
+     1>Projectile.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+         Simulation.cpp
+     1>Simulation.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "H:\Windows 10\Documents\visual studio 2013\Projects\ProjectileMotion\ProjectileMotion\ProjectileMotion.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.01
